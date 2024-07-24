@@ -22,7 +22,7 @@ jobs:
     - name: "ARGS: home-assistant-addon-proxy" # Build of addon proxy version
       if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' && github.event.inputs.type == 'proxy')
       run: |
-        echo "ADDON_LIST=['zigbee2mqtt-proxy']" >> $GITHUB_ENV
+        echo "ADDON_LIST=['home-assistant-addon-proxy']" >> $GITHUB_ENV
         echo "DOCKER_ARGS=--no-cache" >> $GITHUB_ENV
     - name: Determine arch
       id: determine_arch
