@@ -71,5 +71,5 @@
     "schema": {
       "server": "url"
     },
-    "image": "zigbee2mqtt/zigbee2mqtt-proxy-{arch}"
+    "image": "floyds/raspberrymatic-proxy-{arch}"
 }
