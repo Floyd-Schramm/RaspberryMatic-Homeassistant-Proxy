@@ -32,5 +32,5 @@
     "schema": {
       "server": "url"
     },
-    "image": "ghcr.io/jens-maus/raspberrymatic"
+    "image": "zigbee2mqtt/zigbee2mqtt-proxy-{arch}"
 }
