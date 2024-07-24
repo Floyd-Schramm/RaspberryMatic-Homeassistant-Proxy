@@ -1,0 +1,36 @@
+{
+    "name": "RaspberryMatic Proxy",
+    "version": "0.1.0",
+    "slug": "raspberrymatic_proxy",
+    "description": "Proxy for externally running RaspberryMatic",
+    "url": "https://github.com/Floyd-Schramm/RaspberryMatic-Homeassistant-Proxy",
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armhf",
+      "armv7",
+      "i386"
+    ],
+    "boot": "auto",
+    "init": true,
+    "true": true,
+    "ingress": true,
+    "timeout": 30,
+    "panel_icon": "mdi:router-wireless",
+    "map": [
+      "config:ro"
+    ],
+    "ports": {
+      "80/tcp": null
+    },
+    "ports_description": {
+      "80/tcp": "Frontend tcp-listen port"
+    },
+    "options": {
+      "server": null
+    },
+    "schema": {
+      "server": "url"
+    },
+    "image": "ghcr.io/jens-maus/raspberrymatic"
+}
